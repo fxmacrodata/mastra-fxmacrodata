@@ -1,6 +1,10 @@
 # FXMacroData for Mastra
 
-A Mastra evidence workflow and research agent using [FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=mastra_readme). The USD catalogue, USD macro history and USD release calendar are always free and require no FXMacroData API key, account or credit card.
+Build Mastra research agents and evidence workflows with [FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=mastra_readme), combining official macroeconomic history, release calendars and sourced market context.
+
+[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=mastra_subscribe) for non-USD data, full available history, FX, commodities and positioning. Use the public USD workflow to evaluate the integration before connecting your subscription.
+
+The public USD catalogue, recent macro history and release calendar support evaluation without an FXMacroData API key.
 
 ## Start with evidence
 
@@ -62,7 +66,7 @@ Agent requests use your configured model provider and may incur that provider's 
 
 The full workflow covers discovery, indicator history, calendars, predictions, macro news, FX reference data, rates and curves, financial prices, factors, risk sentiment, positioning, commodities, seasonality, official dataset families, research tasks and visual artifacts. The agent keeps tool schemas and MCP content adapters, preserves source provenance, and distinguishes market consensus, official projections and FXMacroData-generated predictions. Visual artifacts are available through the native tool output; rendering depends on the consuming Mastra UI.
 
-## Optional FXMacroData access
+## Connect your FXMacroData subscription
 
 Set `FXMACRODATA_API_KEY` in your shell, deployment secret manager or Mastra application's environment to use additional authorized data. Keep credentials out of prompts, source files, shared URLs and screenshots. The transport builds authenticated requests privately, disallows redirects and sanitizes transport failures. No key is required for the public USD example.
 
