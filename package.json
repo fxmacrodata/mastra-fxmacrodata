@@ -1,0 +1,39 @@
+{
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "homepage": "https://fxmacrodata.com",
+  "license": "Apache-2.0",
+  "files": [
+    "index.ts",
+    "src/",
+    "README.md",
+    "CONTRIBUTING.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start",
+    "research": "tsx src/research.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^24.10.9",
+    "tsx": "^4.21.0",
+    "mastra": "1.28.0"
+  },
+  "name": "@templates/fxmacrodata-research",
+  "description": "A Mastra research agent and workflow using FXMacroData hosted tools",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "@mastra/core": "1.65.0",
+    "@mastra/mcp": "1.17.3",
+    "ajv": "^8.17.1",
+    "zod": "^4.3.6"
+  }
+}
