@@ -1,8 +1,8 @@
 # FXMacroData for Mastra
 
-Build Mastra research agents and evidence workflows with [FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=mastra_readme), combining official macroeconomic history, release calendars and sourced market context.
+Build Mastra research agents and evidence workflows with [FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=mastra-fxmacrodata&utm_content=readme), combining official macroeconomic history, release calendars and sourced market context.
 
-[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=mastra_subscribe) for non-USD data, full available history, FX, commodities and positioning. Use the public USD workflow to evaluate the integration before connecting your subscription.
+[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=mastra-fxmacrodata&utm_content=subscribe) for non-USD data, full available history, FX, commodities and positioning. Use the public USD workflow to evaluate the integration before connecting your subscription.
 
 The public USD catalogue, recent macro history and release calendar support evaluation without an FXMacroData API key.
 
@@ -72,7 +72,7 @@ Set `FXMACRODATA_API_KEY` in your shell, deployment secret manager or Mastra app
 
 MCP discovery is lazy: imports and builds do not contact the server. The CLI closes its connection in `finally`; the Studio entrypoint closes connections on shutdown. The event stream is bounded by `max_events` (1–100) and `max_seconds` (1–60). The template does not create subscriptions or execute trades.
 
-Results include a provider link. Website links carry campaign parameters and the integration sends no additional tracking requests. API and MCP URLs carry no campaign parameters. See the [API reference](https://fxmacrodata.com/documentation/reference?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=mastra_docs) for public contracts and access details.
+Results include a provider link. Website links carry campaign parameters and the integration sends no additional tracking requests. API and MCP URLs carry no campaign parameters. See the [API reference](https://fxmacrodata.com/documentation/reference?utm_source=github&utm_medium=referral&utm_campaign=mastra-fxmacrodata&utm_content=docs) for public contracts and access details.
 
 ## Validate and build
 
